@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.mini_proyecto_50tazo.controller.PlayerSelectionController"
+            prefWidth="600" prefHeight="400">
+
+    <center>
+        <VBox spacing="25" alignment="CENTER">
+            <Label text="Seleccione número de jugadores máquina:"
+                   style="-fx-font-size: 22px; -fx-font-weight: bold;" />
+
+            <HBox spacing="20" alignment="CENTER">
+                <Button fx:id="btn1" text="1 Máquina" prefWidth="150" style="-fx-font-size: 18px;" />
+                <Button fx:id="btn2" text="2 Máquinas" prefWidth="150" style="-fx-font-size: 18px;" />
+                <Button fx:id="btn3" text="3 Máquinas" prefWidth="150" style="-fx-font-size: 18px;" />
+            </HBox>
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER" style="-fx-padding: 20;">
+            <Button fx:id="btnSalir" text="Salir" prefWidth="120"
+                    style="-fx-font-size: 16px; -fx-background-color: #d32f2f; -fx-text-fill: white; -fx-font-weight: bold;" />
+        </HBox>
+    </bottom>
+
+</BorderPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.mini_proyecto_50tazo.controller.GameUnoController"
+            prefWidth="900" prefHeight="620">
+
+    <!-- TOP -->
+    <top>
+        <VBox alignment="CENTER" spacing="8" style="-fx-padding: 15;">
+            <Label fx:id="lblTurn" text="Turno: -" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+            <Label fx:id="lblCurrentSum" text="Suma actual: 0" style="-fx-font-size: 20px;" />
+        </VBox>
+    </top>
+
+    <!-- CENTER -->
+    <center>
+        <VBox spacing="25" alignment="CENTER">
+
+            <!-- Carta superior -->
+            <VBox alignment="CENTER">
+                <Label text="Carta en mesa:" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+                <ImageView fx:id="imgTopCard" fitHeight="150" fitWidth="100" preserveRatio="true"/>
+            </VBox>
+
+            <!-- Mano del jugador -->
+            <VBox spacing="12" alignment="CENTER">
+                <Label text="Tu Mano:" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+                <HBox fx:id="humanHandBox" spacing="12" alignment="CENTER">
+                </HBox>
+            </VBox>
+
+            <!-- Botones -->
+            <HBox spacing="20" alignment="CENTER">
+                <Button fx:id="btnDraw" text="Robar Carta"
+                        style="-fx-font-size: 18px; -fx-padding: 10px 20px;" />
+                <Button fx:id="btnSalir" text="Salir"
+                        style="-fx-font-size: 18px; -fx-padding: 10px 20px; -fx-background-color: #d32f2f; -fx-text-fill: white; -fx-font-weight: bold;" />
+            </HBox>
+        </VBox>
+    </center>
+
+</BorderPane>
