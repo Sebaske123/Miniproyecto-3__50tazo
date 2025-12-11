@@ -1,0 +1,21 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Logs
+*.log
+
+# Java
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SceneBuilder temp
+*.tmp
