@@ -37,8 +37,8 @@ Ser el último jugador en pie. La suma de las cartas en la mesa **no debe excede
 ## 🚀 Ejecución
 
 ```bash
-git clone https://github.com/tu-usuario/cincuentazo.git
-cd cincuentazo
+[git clone https://github.com/tu-usuario/cincuentazo.git
+cd cincuentazo](https://github.com/Sebaske123/Miniproyecto-3__50tazo.git)
 # Abrir en IntelliJ IDEA y ejecutar
 ```
 
