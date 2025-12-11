@@ -6,7 +6,7 @@ package org.example.mini_proyecto_50tazo.model.card;
  *
  * @author Juan Sebastian Tapia
  * @version 1.0
- * @since 2024
+ * @since 2025
  */
 public class Card {
     private final String valueStr;

@@ -10,7 +10,7 @@ import org.example.mini_proyecto_50tazo.model.player.Player;
  *
  * @author Juan Sebastian Tapia
  * @version 1.0
- * @since 2024
+ * @since 2025
  */
 public class ThreadMachinePlayer implements Runnable {
 

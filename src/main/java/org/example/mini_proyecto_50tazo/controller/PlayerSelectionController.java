@@ -17,23 +17,30 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Controller for player selection screen.
- * Allows the user to choose the number of machine opponents.
+ * Controlador para la pantalla de selección de jugadores.
+ * Permite al usuario elegir la cantidad de oponentes máquina (1-3).
+ *
+ * <p>Esta clase maneja la lógica de inicialización del juego,
+ * incluyendo la creación del modelo y los hilos de las máquinas.</p>
  *
  * @author Juan Sebastian Tapia
  * @version 1.0
- * @since 2024
+ * @since 2025
  */
-public class PlayerSelectionController {
 
+public class PlayerSelectionController {
+    /** Botón para seleccionar 1 máquinas oponentes */
     @FXML
     private Button btn1;
+    /** Botón para seleccionar 2 máquinas oponentes */
 
     @FXML
     private Button btn2;
+    /** Botón para seleccionar 3 máquinas oponentes */
 
     @FXML
     private Button btn3;
+    /** Botón para seleccionar 4 máquinas oponentes */
 
     @FXML
     private Button btnSalir;
